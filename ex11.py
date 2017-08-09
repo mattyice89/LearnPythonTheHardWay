@@ -1,0 +1,12 @@
+print("How old are you?", end=' ')
+age = input()
+print("What year were you married")
+married_year = int(input())
+married_age = int(age) - (2017 - married_year)
+print("How tall are you?", end= ' ')
+height = input()
+print ("How much do you weigh?", end= ' ')
+weight = input()
+
+print(f"So, you're {age} years old, {height} tall and {weight} pounds heavy.")
+print(f"You were {married_age} when you got married")
