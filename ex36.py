@@ -123,18 +123,18 @@ def Monkey_Room():
         print("\"Oh hello! My name is Guybrush Threepwood.\n I used to be a might pirate, \nbut I was cursed by an evil pirate named LeChuck and turned into a monkey.")
         print("Will you help me?\"")
 
-        # Why isn't this working?
+        # Why doesn't this work?!
         choice2_Monkey_Room = input("> ")
-        if "No" or "no" in choice2_Monkey_Room:
-            print("\"Cool, thanks man.\"")
-            print("You now have an ex-pirate, talking monkey in your party... I'm sure that will somehow come in handy.")
-            Monkey_Choice()
-        else:
+        if "no" or "No" in choice2_Monkey_Room:
             print("\"Fuck you man! Monkeys, attack!\"")
             print("A troop (yes, a troop is the right word for a group of monkeys) descends on you, reigning down purple nurples and crotch shots.")
             print("They don't stop until your junk has been turned to dust.")
             print("You lose the will to live.  You kill yourself.")
             exit()
+        else:
+            print("\"Cool, thanks man.\"")
+            print("You now have an ex-pirate, talking monkey in your party... I'm sure that will somehow come in handy.")
+            Monkey_Choice()
 
 def Monkey_Choice():
             print("There are two exits to this room.  One to the east, and the other to the north.")
